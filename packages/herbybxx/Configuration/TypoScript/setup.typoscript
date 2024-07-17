@@ -1,1 +1,1 @@
-@import 'ETX:herbybxx/Configuration/TypoScript/Setup/*.typoscript'
+@import 'EXT:herbybxx/Configuration/TypoScript/Setup/*.typoscript'

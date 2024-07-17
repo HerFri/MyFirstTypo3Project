@@ -28,10 +28,12 @@ page {
             pagets__layoutwithoutheader.value = EXT:herbybxx/Resources/Private/Templates/withoutHeader.html
 
             default < .pagets__layoutwithheader
+
         }
 
         variables {
             content0 < styles.content.get
+            
             content1 < styles.content.get
             content1.select.where = {#colPos} = 1
         }
