@@ -1,0 +1,20 @@
+{
+  "name": "herbe/herbybxx",
+  "description": "Template",
+  "type": "typo3-cms-extension",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "Herbert Frichert",
+      "email": "herbert.frichert@outlook.de"
+    }
+  ],
+  "require": {
+    "typo3/cms-fluid-styled-content": "^12.4"
+  },
+  "extra": {
+    "typo3/cms": {
+      "extension-key": "herbybxx"
+    }
+  }
+}
