@@ -1,0 +1,2 @@
+@import 'EXT:herbybxx/Configuration/TypoScript/Extensions/BootstrapPackage/setup.typoscript'
+// Compare this snippet from packages/herbybxx/Configuration/TypoScript/Extensions/setup.typoscript:

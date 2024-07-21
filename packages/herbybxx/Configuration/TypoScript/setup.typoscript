@@ -1,1 +1,13 @@
-@import 'EXT:herbybxx/Configuration/TypoScript/Setup/*.typoscript'
+@import 'EXT:herbybxx/Configuration/TypoScript/Extensions/setup.typoscript'
+@import 'EXT:herbybxx/Configuration/TypoScript/Page/config.typoscript'
+@import 'EXT:herbybxx/Configuration/TypoScript/Page/page.typoscript'
+
+[applicationContext matches "/^Development/"]
+  config {
+      compressJs = 0
+      compressCss = 0
+      concatenateJs = 0
+      concatenateCss = 0
+      no_cache = 1
+  }
+[end]

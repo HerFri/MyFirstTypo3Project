@@ -1,0 +1,17 @@
+@import 'EXT:bootstrap_package/Configuration/TypoScript/constants.typoscript'
+
+page {
+    fluidtemplate {
+        layoutRootPath = EXT:herbybxx/Resources/Private/Layouts/Page/
+        partialRootPath = EXT:herbybxx/Resources/Private/Partials/Page/
+        templateRootPath = EXT:herbybxx/Resources/Private/Templates/Page/
+    }
+}
+
+plugin.bootstrap_package_contentelements {
+    view {
+        templateRootPath = EXT:herbybxx/Resources/Private/Templates/ContentElements/
+        partialRootPath = EXT:herbybxx/Resources/Private/Partials/ContentElements/
+        layoutRootPath = EXT:herbybxx/Resources/Private/Layouts/ContentElements/
+    }
+}

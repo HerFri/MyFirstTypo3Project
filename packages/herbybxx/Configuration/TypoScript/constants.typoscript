@@ -1,1 +1,1 @@
-@import 'EXT:herbybxx/Configuration/TypoScript/Constants/*.typoscript'
+@import 'EXT:herbybxx/Configuration/TypoScript/Extensions/constants.typoscript'
